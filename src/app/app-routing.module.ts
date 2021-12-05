@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MenuComponent } from './menu/menu.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+
 import { Component1 } from './component1/component1.component';
 import { Component2 } from './component2/component2.component';
 import { Component3 } from './component3/component3.component';
@@ -11,6 +10,8 @@ import { Component6 } from './component6/component6.component';
 import { Component7 } from './component7/component7.component';
 import { Component8 } from './component8/component8.component';
 import { Component9 } from './component9/component9.component';
+import { MenuComponent } from './menu/menu.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'menu',pathMatch: 'full'},
@@ -32,3 +33,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const routingComponents = [Component1, Component2, Component3, Component4, Component5, Component6, Component7, Component8, Component9, MenuComponent, NotFoundComponent]
