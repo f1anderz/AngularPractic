@@ -1,7 +1,31 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MenuComponent } from './menu/menu.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { Component1 } from './component1/component1.component';
+import { Component2 } from './component2/component2.component';
+import { Component3 } from './component3/component3.component';
+import { Component4 } from './component4/component4.component';
+import { Component5 } from './component5/component5.component';
+import { Component6 } from './component6/component6.component';
+import { Component7 } from './component7/component7.component';
+import { Component8 } from './component8/component8.component';
+import { Component9 } from './component9/component9.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', redirectTo: '/menu',pathMatch: 'full'},
+  {path: 'menu', component: MenuComponent},
+  {path: '**', component: NotFoundComponent},
+  {path: 'first', component: Component1},
+  {path: 'second', component: Component2},
+  {path: 'third', component: Component3},
+  {path: 'fourth', component: Component4},
+  {path: 'fifth', component: Component5},
+  {path: 'sixth', component: Component6},
+  {path: 'seventh', component: Component7},
+  {path: 'eights', component: Component8},
+  {path: 'nineth', component: Component9},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
