@@ -13,9 +13,8 @@ import { Component8 } from './component8/component8.component';
 import { Component9 } from './component9/component9.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/menu',pathMatch: 'full'},
+  {path: '', redirectTo: 'menu',pathMatch: 'full'},
   {path: 'menu', component: MenuComponent},
-  {path: '**', component: NotFoundComponent},
   {path: 'first', component: Component1},
   {path: 'second', component: Component2},
   {path: 'third', component: Component3},
@@ -25,6 +24,7 @@ const routes: Routes = [
   {path: 'seventh', component: Component7},
   {path: 'eights', component: Component8},
   {path: 'nineth', component: Component9},
+  {path: '**', component: NotFoundComponent},
 ];
 
 @NgModule({
