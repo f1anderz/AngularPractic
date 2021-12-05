@@ -1,24 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .wrapper {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(222, 222, 222);
 }
 .back {
     position: absolute;
-    top: 20px;
-    left: 60px;
-    border-radius: 10px;
-    background: #ff8f00;
-    padding: 5px 8px;
-    color: #f9f9f9;
+    left: 12px;
+    top: 12px;
+    width: 130px;
+    padding: 11px 16px;
+    text-align: center;
+    background: rgb(253, 174, 53);
+    background: linear-gradient(to right, rgb(253, 174, 53) 50%, #ff5000 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 2s ease;
     font-size: 1.5rem;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.back:hover {
+    background-position: right bottom;
+    cursor: pointer;
 }
 .card {
     width: 80%;
-    height: 80vh;
+    height: 90vh;
     background-image: url(../../assets/2/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 2.5%;
+    top: 3.5%;
+}
+.titlebg {
+    position: absolute;
+    top: 22%;
+    left: 11%;
+}
+.title{
+    position: absolute;
+    top: 27%;
+    left: 14%; animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(180deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+.subtitle{
+    position: absolute;
+    left: 29%;
+    top: 74.5%;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 225%;
+    transform: rotate(-5.5deg);
 }
