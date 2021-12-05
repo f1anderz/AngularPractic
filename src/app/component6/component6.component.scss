@@ -1,0 +1,33 @@
+.body
+{
+    background: rgb(222, 222, 222);
+    margin: 0px;
+    width: 100%;
+    height: 945px;
+    text-align: center;
+}
+.component6>img
+{
+    top:80px;
+    position: relative;
+    width: 60%;
+   
+}
+.button
+{
+    top: 60px;
+    left: 100px;
+    position: relative;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(253, 174, 53);
+    padding: 15px;
+    color:rgb(131, 25, 67);
+    font-size: medium;
+}
+.button>a
+{
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+}
