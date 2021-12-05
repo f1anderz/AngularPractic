@@ -24,7 +24,7 @@ const routes: Routes = [
   {path: 'sixth', component: Component6},
   {path: 'seventh', component: Component7},
   {path: 'eights', component: Component8},
-  {path: 'nineth', component: Component9},
+  {path: 'nineths', component: Component9},
   {path: '**', component: NotFoundComponent},
 ];
 

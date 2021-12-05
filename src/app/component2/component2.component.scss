@@ -1,10 +1,24 @@
-.wrapper{
+.wrapper {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.card{
+.back {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    border-radius: 10px;
+    background: #ff8f00;
+    padding: 5px 8px;
+    color: #f9f9f9;
+    font-size: 1.5rem;
+}
+.card {
+    width: 80%;
+    height: 80vh;
     background-image: url(../../assets/2/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
