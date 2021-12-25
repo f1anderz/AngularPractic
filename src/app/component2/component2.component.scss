@@ -75,24 +75,15 @@
     from {
         transform:rotate(180deg);
     }
-    to {
-        transform:rotate(0deg);
-    }
 }
 @keyframes spinBack {
     from {
         transform:rotate(360deg);
     }
-    to {
-        transform:rotate(0deg);
-    }
 }
 @keyframes float {
     from {
         left: -200%;
-    }
-    to {
-        left: 29%;
     }
 }
 .subtitle{
