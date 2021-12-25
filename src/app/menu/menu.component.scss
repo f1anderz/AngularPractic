@@ -22,8 +22,14 @@
     margin-left: 15px;
     display: block;
     border:1px solid black;
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 180px;
+}
+.container3>a>img
+{
+    width: 100%;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .container1_2
 {
