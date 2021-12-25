@@ -73,12 +73,12 @@
 }
 @keyframes spin {
     from {
-        transform: rotate(720deg);
+        transform: scale(.7);
     }
 }
 @keyframes float {
     from {
-        left: -200%;
+        transform: scale(2);
     }
 
 }
@@ -130,46 +130,26 @@
     position: absolute;
     top: 11%;
     left: 23%;
-    animation-name: vertical;
-    animation-duration: 2000ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
 }
 .c2{
     position: absolute;
     top: 16%;
     left: 88%;
-    animation-name: vertical;
-    animation-duration: 1500ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
 }
 .c3{
     position: absolute;
     top: 75%;
     left: 16%;
-    animation-name: vertical;
-    animation-duration: 1500ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
 }
 .c4{
     position: absolute;
     top: 6%;
     left: 55%;
-    animation-name: vertical;
-    animation-duration: 2000ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
 }
 .c5{
     position: absolute;
     left: 77%;
     top: 88%;
-    animation-name: vertical;
-    animation-duration: 1500ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
 }
 .c1 img{
     width: 40%;
@@ -186,9 +166,39 @@
 .c5 img{
     width: 40%;
 }
+.c1:hover{
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: random($limit: 1);
+}
+.c2:hover{
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: random($limit: 1);
+}
+.c3:hover{
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: random($limit: 1);
+}
+.c4:hover{
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: random($limit: 1);
+}
+.c5:hover{
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: random($limit: 1);
+}
 @keyframes vertical {
     from {
-        width: 0;
+        transform: scale(1.5);
     }
 }
 .x1{
@@ -253,7 +263,7 @@
 }
 @keyframes horizontal {
     from {
-        transform: rotate(180deg);
+        top: 200%;
     }
 }
 .instagram{
