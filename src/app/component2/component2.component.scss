@@ -73,7 +73,7 @@
 }
 @keyframes spin {
     from {
-        transform:rotate(180deg);
+        transform:scale(.3);
     }
 }
 @keyframes spinBack {

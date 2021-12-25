@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.wrapper {
+    max-height: 100vh;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(222, 222, 222);
+}
+.back {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    width: 130px;
+    padding: 11px 16px;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(7,48,147,1) 13%, rgba(0,212,255,1) 35%, rgba(0,212,255,1) 70%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 2s ease;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.back:hover {
+    background-position: right bottom;
+    cursor: pointer;
+}
+.card {
+    width: 80%;
+    max-height: 90vh;
+    height: 90vh;
+    overflow: hidden;
+    background-image: url(../../assets/3/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    width: 4.5em;
+    height: 4.5em;
+    left: 2.5%;
+    top: 3.5%;
+}
+.logo img{
+    width: 4.5em;
+    height: 4.5em;
+}
+.titlebg {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+}
+.titlebg img{
+    width: 55%;
+}
+.title{
+    position: absolute;
+    top: 24%;
+    left: 7%; 
+    animation-name: float;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.title img{
+    width: 55%;
+}
+@keyframes spin {
+    from {
+        transform: rotate(720deg);
+    }
+}
+@keyframes float {
+    from {
+        left: -200%;
+    }
+
+}
+.subtitle{
+    position: absolute;
+    left: 25%;
+    top: 67%;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 245%;
+    transform: rotate(-5.5deg);
+    animation-name: float;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.salebg{
+    position: absolute;
+    left: 80%;
+    top: 65%;
+}
+.salebg img{
+    width: 80%;
+}
+.sale{
+    position: absolute;
+    left: 81%;
+    top: 70%;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; 
+}
+.sale img{
+    width: 78%;
+}
+.text{
+    position: absolute;
+    width: 340px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    top: 86%;
+    left: 17%;
+    text-align: center;
+}
+.c1{
+    position: absolute;
+    top: 11%;
+    left: 23%;
+    animation-name: vertical;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c2{
+    position: absolute;
+    top: 16%;
+    left: 88%;
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c3{
+    position: absolute;
+    top: 75%;
+    left: 16%;
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c4{
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    animation-name: vertical;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c5{
+    position: absolute;
+    left: 77%;
+    top: 88%;
+    animation-name: vertical;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c1 img{
+    width: 40%;
+}
+.c2 img{
+    width: 40%;
+}
+.c3 img{
+    width: 40%;
+}
+.c4 img{
+    width: 40%;
+}
+.c5 img{
+    width: 40%;
+}
+@keyframes vertical {
+    from {
+        width: 0;
+    }
+}
+.x1{
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    animation-name: horizontal;
+    animation-duration: 1800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x2{
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    animation-name: horizontal;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x3{
+    position: absolute;
+    top: 35%;
+    left: 92%;
+    animation-name: horizontal;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x4{
+    position: absolute;
+    top: 71%;
+    left: 6%;
+    animation-name: horizontal;
+    animation-duration: 1600ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x5{
+    position: absolute;
+    top: 90%;
+    left: 44%;
+    animation-name: horizontal;
+    animation-duration: 1700ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x1 img{
+    width: 40%;
+}
+.x2 img{
+    width: 40%;
+}
+.x3 img{
+    width: 50%;
+}
+.x4 img{
+    width: 40%;
+}
+.x5 img{
+    width: 30%;
+}
+@keyframes horizontal {
+    from {
+        transform: rotate(180deg);
+    }
+}
+.instagram{
+    position: absolute;
+    top: 6%;
+    left: 88%;
+    color: white;
+}
+.facebook{
+    position: absolute;
+    top: 6%;
+    left: 90%;
+    color: white;
+}
+.twitter{
+    position: absolute;
+    top: 6%;
+    left: 92%;
+    color: white;
+}
+.pinterest{
+    position: absolute;
+    top: 6%;
+    left: 94%;
+    color: white;
+}
