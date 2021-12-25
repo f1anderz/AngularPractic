@@ -2,15 +2,14 @@
     display: inline-flex;
     position: relative;
     top:150px;
-    left: 35%;
+    left: 25%;
 }
 .container1
 {
     margin-top: 15px;
     display: block;
-    border:1px solid black;
-    height: 315px;
-    width: 150px;
+    height: 515px;
+    width: 370px;
 }
 .container2
 {
@@ -21,7 +20,7 @@
     margin-top: 15px;
     margin-left: 15px;
     display: block;
-    border:1px solid black;
+
     height: 250px;
     width: 180px;
 }
@@ -31,6 +30,22 @@
     overflow:hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+.container1>a>img
+{
+    
+    width: 100%;
+    overflow:hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.container1>a>img:hover{
+    opacity: 0.5;
+    background: rgba(0,0,0);
+}
+.container3>a>img:hover{
+    opacity: 0.5;
+    background: rgba(0,0,0);
+}
+
 .container1_2
 {
     display: block;
