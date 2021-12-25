@@ -1,0 +1,211 @@
+.body
+{
+    background: rgb(222, 222, 222);
+    margin: 0px;
+    width: 100%;
+    height: 945px;
+    overflow:hidden;
+    text-align: center;
+}
+
+.component6_1>img
+{
+    top: 60px;
+    position: relative;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.component6_3>img
+{
+    position: absolute;
+    width: 5%;
+    z-index: 2;
+    margin-top: -400px;
+    left: 1450px;
+}
+.component6_4>img{
+    top:510px;
+    left: 1310px;
+    position: absolute;
+    width: 5%;
+    z-index: 5;
+}
+.component6_5>img{
+    position: absolute;
+    width: 30%;
+    z-index: 4;
+    top: 140px;
+    left: 950px;
+}
+.component6_6>img{
+    position: absolute;
+    width: 5%;
+    z-index: 4;
+    top: 220px;
+    left: 530px;
+}
+.component6_7>img{
+    position: absolute;
+    width: 5%;
+    z-index: 4;
+    top: 90px;
+    left: 1150px;
+}
+.component6_8>img{
+    position: absolute;
+    width: 5%;
+    z-index: 4;
+    top: 500px;
+    left: 950px;
+}
+.component6_9>img{
+    position: absolute;
+    width: 5%;
+    z-index: 4;
+    top: 70px;
+    left: 550px;
+}
+.component6_10>img{
+    position: absolute;
+    width: 14%;
+    z-index: 4;
+    top: 350px;
+    left: 525px;
+}
+.component6_12>img{
+    position: absolute;
+    width: 8%;
+    z-index: 4;
+    top: 100px;
+    left: 1400px;
+}
+.component6
+{
+    overflow:hidden;
+}
+    .component6_3 img {
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        }
+       .component6_3 img:hover {
+        -webkit-transform: scale(-1.05);
+        -moz-transform: scale(-1.05);
+        -o-transform: scale(-1.05);
+        }
+        .component6_4 img {
+            -moz-transition: all 1s ease-out;
+            -o-transition: all 1s ease-out;
+            -webkit-transition: all 1s ease-out;
+            }
+           .component6_4 img:hover {
+            -webkit-transform: scale(-1.05);
+            -moz-transform: scale(-1.05);
+            -o-transform: scale(-1.05);
+            }
+            .component6_5 img {
+                -moz-transition: all 1s ease-out;
+                -o-transition: all 1s ease-out;
+                -webkit-transition: all 1s ease-out;
+                }
+               .component6_5 img:hover {
+                -webkit-transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                -o-transform: scale(1.1);
+                }
+                .component6_6 img {
+                    -moz-transition: all 1s ease-out;
+                    -o-transition: all 1s ease-out;
+                    -webkit-transition: all 1s ease-out;
+                    }
+                   .component6_6 img:hover {
+                    -webkit-transform: scale(-1.05);
+                    -moz-transform: scale(-1.05);
+                    -o-transform: scale(-1.05);
+                    }
+                    .component6_7 img {
+                        -moz-transition: all 1s ease-out;
+                        -o-transition: all 1s ease-out;
+                        -webkit-transition: all 1s ease-out;
+                        }
+                       .component6_7 img:hover {
+                        -webkit-transform: scale(-1.05);
+                        -moz-transform: scale(-1.05);
+                        -o-transform: scale(-1.05);
+                        }
+                        .component6_8 img {
+                            -moz-transition: all 1s ease-out;
+                            -o-transition: all 1s ease-out;
+                            -webkit-transition: all 1s ease-out;
+                            }
+                           .component6_8 img:hover {
+                            -webkit-transform: scale(-1.05);
+                            -moz-transform: scale(-1.05);
+                            -o-transform: scale(-1.05);
+                            }
+                            .component6_12 img {
+                                -moz-transition: all 1s ease-out;
+                                -o-transition: all 1s ease-out;
+                                -webkit-transition: all 1s ease-out;
+                                }
+                               .component6_12 img:hover {
+                                -webkit-transform: scale(1.05);
+                                -moz-transform: scale(1.05);
+                                -o-transform: scale(1.05);
+                                }
+                                .component6_9 img {
+                                    -moz-transition: all 1s ease-out;
+                                    -o-transition: all 1s ease-out;
+                                    -webkit-transition: all 1s ease-out;
+                                    }
+                                   .component6_9 img:hover {
+                                    -webkit-transform: scale(1.05);
+                                    -moz-transform: scale(1.05);
+                                    -o-transform: scale(1.05);
+                                    }
+                                    .component6_10 img {
+                                        -moz-transition: all 1s ease-out;
+                                        -o-transition: all 1s ease-out;
+                                        -webkit-transition: all 1s ease-out;
+                                        }
+                                       .component6_10 img:hover {
+                                        -webkit-transform: scale(1.05);
+                                        -moz-transform: scale(1.05);
+                                        -o-transform: scale(1.05);
+                                        }
+.button
+{
+    top: 60px;
+    left: 100px;
+    position: relative;
+    font-size: medium;
+}
+ul {
+    list-style-type:none;
+}
+ul li a {
+    text-decoration:none;
+    color:rgb(131, 25, 67);
+}
+.skillsDouble {
+    float: left;
+    margin-right: 1px;
+}
+.skillsDouble li {
+    width:150px;
+    padding: 11px 16px;
+    text-align:center;
+    float:left;
+    background:  rgb(253, 174, 53);
+    background: linear-gradient(to right,  rgb(221, 0, 73) 50%,  rgb(193, 0, 66) 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+    margin-left:10px;
+    transition:all 2s ease;
+}
+.skillsDouble li:hover {
+    background-position:right bottom;
+}
+.skillsDouble li a {
+    color:white;
+}
