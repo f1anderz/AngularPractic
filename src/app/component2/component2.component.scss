@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .wrapper {
+    max-height: 100vh;
     height: 100vh;
+    max-width: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -30,7 +32,9 @@
 }
 .card {
     width: 80%;
+    max-height: 90vh;
     height: 90vh;
+    overflow: hidden;
     background-image: url(../../assets/2/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,13 +56,20 @@
     top: 22%;
     left: 11%;
 }
+.titlebg img{
+    width: 55%;
+}
 .title{
     position: absolute;
-    top: 27%;
-    left: 14%; animation-name: spin;
+    top: 25%;
+    left: 12%; 
+    animation-name: spin;
     animation-duration: 1000ms;
     animation-iteration-count: 1;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
+}
+.title img{
+    width: 55%;
 }
 @keyframes spin {
     from {
@@ -68,13 +79,210 @@
         transform:rotate(0deg);
     }
 }
+@keyframes spinBack {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
+@keyframes float {
+    from {
+        left: -200%;
+    }
+    to {
+        left: 29%;
+    }
+}
 .subtitle{
     position: absolute;
     left: 29%;
-    top: 74.5%;
+    top: 75%;
     text-transform: uppercase;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 225%;
     transform: rotate(-5.5deg);
+    animation-name: float;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.salebg{
+    position: absolute;
+    left: 75%;
+    top: 55%;
+}
+.sale{
+    position: absolute;
+    left: 73.5%;
+    top: 61%;
+    animation-name: spinBack;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear; 
+}
+.text{
+    position: absolute;
+    width: 340px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    top: 90%;
+    left: 3%;
+}
+.c1{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    animation-name: vertical;
+    animation-duration: 1200ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c2{
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    animation-name: vertical;
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c3{
+    position: absolute;
+    top: 77%;
+    left: 16%;
+    animation-name: vertical;
+    animation-duration: 1100ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c4{
+    position: absolute;
+    top: 87%;
+    left: 45%;
+    animation-name: vertical;
+    animation-duration: 900ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c5{
+    position: absolute;
+    left: 90%;
+    top: 87%;
+    animation-name: vertical;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.c1 img{
+    width: 40%;
+}
+.c2 img{
+    width: 40%;
+}
+.c3 img{
+    width: 40%;
+}
+.c4 img{
+    width: 40%;
+}
+.c5 img{
+    width: 40%;
+}
+@keyframes vertical {
+    from {
+        top: -200%;
+    }
+}
+.x1{
+    position: absolute;
+    top: 23%;
+    left: 12%;
+    animation-name: horizontal;
+    animation-duration: 1800ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x2{
+    position: absolute;
+    top: 28%;
+    left: 55%;
+    animation-name: horizontal;
+    animation-duration: 2000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x3{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    animation-name: horizontal;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x4{
+    position: absolute;
+    top: 71%;
+    left: 6%;
+    animation-name: horizontal;
+    animation-duration: 1600ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x5{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    animation-name: horizontal;
+    animation-duration: 1700ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.x1 img{
+    width: 40%;
+}
+.x2 img{
+    width: 40%;
+}
+.x3 img{
+    width: 40%;
+}
+.x4 img{
+    width: 40%;
+}
+.x5 img{
+    width: 40%;
+}
+@keyframes horizontal {
+    from {
+        left: -200%;
+    }
+}
+.instagram{
+    position: absolute;
+    top: 6%;
+    left: 87%;
+    color: white;
+}
+.facebook{
+    position: absolute;
+    top: 6%;
+    left: 89%;
+    color: white;
+}
+.twitter{
+    position: absolute;
+    top: 6%;
+    left: 91%;
+    color: white;
+}
+.pinterest{
+    position: absolute;
+    top: 6%;
+    left: 93%;
+    color: white;
 }
